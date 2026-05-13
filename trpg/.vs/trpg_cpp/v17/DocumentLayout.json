@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\TUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\TUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_TUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\_TUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\CharacterStat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\CharacterStat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\PotionShop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\PotionShop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\DBM.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\DBM.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Thief.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Thief.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Magician.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Magician.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Job.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Job.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Archer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Archer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Potion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Potion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Inventory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F110B4EA-BDC9-4B80-9B0C-3860BBA1573C}|trpg_cpp\\trpg_cpp.vcxproj|solutionrelative:trpg_cpp\\Character.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PotionShop.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\PotionShop.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.h",
+              "RelativeToolTip": "trpg_cpp\\PotionShop.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T01:26:57.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PotionShop.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\PotionShop.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\PotionShop.cpp",
+              "RelativeToolTip": "trpg_cpp\\PotionShop.cpp",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T01:27:08.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Main.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_Main.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\_Main.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_Main.cpp",
+              "RelativeToolTip": "trpg_cpp\\_Main.cpp",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAqwIYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T08:42:39.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_TUI.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_TUI.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\_TUI.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\_TUI.cpp",
+              "RelativeToolTip": "trpg_cpp\\_TUI.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T01:35:34.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TUI.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\TUI.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\TUI.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\TUI.h",
+              "RelativeToolTip": "trpg_cpp\\TUI.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T02:44:23.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterStat.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\CharacterStat.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.h",
+              "RelativeToolTip": "trpg_cpp\\CharacterStat.h",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T02:18:09.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterStat.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\CharacterStat.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\CharacterStat.cpp",
+              "RelativeToolTip": "trpg_cpp\\CharacterStat.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:21:32.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DBM.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\DBM.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.cpp",
+              "RelativeToolTip": "trpg_cpp\\DBM.cpp",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T01:34:10.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBM.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\DBM.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\DBM.h",
+              "RelativeToolTip": "trpg_cpp\\DBM.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T10:27:25.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Warrior.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Warrior.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.cpp",
+              "RelativeToolTip": "trpg_cpp\\Warrior.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:22:26.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Warrior.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Warrior.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Warrior.h",
+              "RelativeToolTip": "trpg_cpp\\Warrior.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T03:33:01.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Thief.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Thief.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.cpp",
+              "RelativeToolTip": "trpg_cpp\\Thief.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:22:33.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Magician.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Magician.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.h",
+              "RelativeToolTip": "trpg_cpp\\Magician.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T10:25:12.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Job.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Job.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.h",
+              "RelativeToolTip": "trpg_cpp\\Job.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T03:32:14.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Archer.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Archer.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.h",
+              "RelativeToolTip": "trpg_cpp\\Archer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T04:59:18.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Monster.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.h",
+              "RelativeToolTip": "trpg_cpp\\Monster.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T09:59:40.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Potion.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Potion.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.h",
+              "RelativeToolTip": "trpg_cpp\\Potion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T01:26:45.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Inventory.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Inventory.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.h",
+              "RelativeToolTip": "trpg_cpp\\Inventory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T02:18:08.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Character.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.cpp",
+              "RelativeToolTip": "trpg_cpp\\Character.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:19:01.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Character.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Character.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Character.h",
+              "RelativeToolTip": "trpg_cpp\\Character.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T03:59:21.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 178,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Thief.h",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.h",
+              "RelativeDocumentMoniker": "trpg_cpp\\Thief.h",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Thief.h",
+              "RelativeToolTip": "trpg_cpp\\Thief.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T10:25:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Magician.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Magician.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Magician.cpp",
+              "RelativeToolTip": "trpg_cpp\\Magician.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:36:09.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Inventory.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Inventory.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Inventory.cpp",
+              "RelativeToolTip": "trpg_cpp\\Inventory.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T02:18:10.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Potion.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Potion.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Potion.cpp",
+              "RelativeToolTip": "trpg_cpp\\Potion.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T01:50:07.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Monster.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Monster.cpp",
+              "RelativeToolTip": "trpg_cpp\\Monster.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:35:55.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Archer.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Archer.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Archer.cpp",
+              "RelativeToolTip": "trpg_cpp\\Archer.cpp",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T02:49:13.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Job.cpp",
+              "DocumentMoniker": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.cpp",
+              "RelativeDocumentMoniker": "trpg_cpp\\Job.cpp",
+              "ToolTip": "C:\\Users\\shs\\Desktop\\cpp\\trpg\\trpg\\trpg_cpp\\Job.cpp",
+              "RelativeToolTip": "trpg_cpp\\Job.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T03:23:13.577Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
