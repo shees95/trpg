@@ -1,0 +1,172 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Character::CStat' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shs/Desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/Character.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Character::{ctor}",
+                  "decoratedName": "??0Character@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Character::CStat"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Character::CPotionBag' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shs/Desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/Character.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Character::{ctor}",
+                  "decoratedName": "??0Character@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Character::CPotionBag"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Character::job' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shs/Desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/Character.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Character::{ctor}",
+                  "decoratedName": "??0Character@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Character::job"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33145.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/shs/Desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/Character.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6a1bb6471e7660bf3dfd8acb66cc2320b4c347b68f6ebee1317a5349f5361237"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/character.h"
+          },
+          "hashes": {
+            "sha-256": "2d320e62803e4214d7351ad74deaf6aebd1faa5b8fa4612e5216e719255f4dfa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/characterstat.h"
+          },
+          "hashes": {
+            "sha-256": "4d2ddd0c6424cab2fbd34d178a460ce8deafb35b56b17cd730415fa053e51615"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/potion.h"
+          },
+          "hashes": {
+            "sha-256": "380292edeb8a08e2ad4c5bdea0d9d56b4595e5158c0189c2ee98ed5c4e8d1ff5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/job.h"
+          },
+          "hashes": {
+            "sha-256": "5b900e54e125998713903655331802d15f21ee457c3f7a5aa3c0e8274fd65e77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/warrior.h"
+          },
+          "hashes": {
+            "sha-256": "4acabfc4d8115c0dc75846b4f1b612b15bbd054dae52e46abc1548fef54cd049"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shs/desktop/cpp/trpg/trpg/trpg_cpp/trpg_cpp/tui.h"
+          },
+          "hashes": {
+            "sha-256": "29124658f1810509bededbba99e77814b0904ad40195ac415503cc1bd01f87ba"
+          }
+        }
+      ]
+    }
+  ]
+}

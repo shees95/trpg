@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build Results
+Binaries/
+Build/
+Intermediate/
+Saved/
+
+# Compiled files
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+
+# IntelliSense
+*.ipch
+
+# Logs
+*.log
+
+*.db
+*.vsidx
+*.suo
