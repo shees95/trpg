@@ -1113,6 +1113,11 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="UI\private\BattleUI.cpp" />
+    <ClCompile Include="UI\private\CharacterUI.cpp" />
+    <ClCompile Include="UI\private\MonsterUI.cpp" />
+    <ClCompile Include="UI\private\PotionShop.cpp" />
+    <ClCompile Include="UI\private\System_Inventory.cpp" />
     <ClCompile Include="_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -1131,6 +1136,11 @@
     <ClInclude Include="System\public\MonsterBase.h" />
     <ClInclude Include="System\public\PotionShop.h" />
     <ClInclude Include="System\public\_TUI.h" />
+    <ClInclude Include="UI\public\BattleUI.h" />
+    <ClInclude Include="UI\public\CharacterUI.h" />
+    <ClInclude Include="UI\public\MonsterUI.h" />
+    <ClInclude Include="UI\public\PotionShop.h" />
+    <ClInclude Include="UI\public\System_Inventory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
