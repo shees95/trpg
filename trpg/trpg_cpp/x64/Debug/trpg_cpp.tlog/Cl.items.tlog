@@ -12,5 +12,9 @@ C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\System\private\Inventory.cpp;C:\User
 C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\System\private\ItemBase.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\ItemBase.obj
 C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\System\private\MonsterBase.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\MonsterBase.obj
 C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\System\private\PotionShop.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\PotionShop.obj
-C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\System\private\_TUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\_TUI.obj
+C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\UI\private\BaseUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\BaseUI.obj
+C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\UI\private\BattleUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\BattleUI.obj
+C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\UI\private\CharacterUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\CharacterUI.obj
+C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\UI\private\PotionShopUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\PotionShopUI.obj
+C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\UI\private\SystemUI.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\SystemUI.obj
 C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\_Main.cpp;C:\Users\shs\Desktop\cpp\trpg\trpg\trpg_cpp\x64\Debug\_Main.obj

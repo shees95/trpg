@@ -8,10 +8,9 @@
 #include "../public/Job.h"
 #include "../../System/public/Inventory.h"
 
-#include "../../System/public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 
 using namespace std;
-using namespace TUI;
 
 Character::Character()
 	: characterStat(this), inventory(this)
@@ -24,21 +23,28 @@ Character::~Character()
 	delete job;
 }
 
+void Character::CreateCharacter()
+{
+	CreateName();
+	
+	GetStat().Init();
+}
+
 void Character::CreateName()
 {
 	string Name = "";
 
 	while (true)
 	{
-		Print("Enter your hero's name: ");
+		BaseUI::Print("Enter your hero's name: ");
 		cin >> Name;
 
 		if (Name.length() > 0)
 		{
 			SetName(Name);
 
-			Print_ln(2);
-			return;
+			BaseUI::Print_ln();
+			break;
 		}
 	}
 }
@@ -60,18 +66,18 @@ Job* Character::GetJob()
 
 void Character::PrintPlayerStatus()
 {
-	Print_BorderLine_Double();
+	BaseUI::Print_BorderLine_Double();
 
-	Print_ln();
-	Print("Name : " + GetName()); Print_t();
-	Print("Job : " + GetJob()->GetJobName()); Print_t();
-	Print_ln("Lv." + to_string(characterStat.GetLv()));
+	BaseUI::Print_ln();
+	BaseUI::Print_t("Name : " + GetName());
+	BaseUI::Print_t("Job : " + GetJob()->GetJobName());
+	BaseUI::Print_ln("Lv." + to_string(characterStat.GetLv()));
 
-	Print_t("HP: " + to_string(characterStat.GetHP()));
-	Print_t("MP: " + to_string(characterStat.GetMP()));
-	Print_t("AP: " + to_string(characterStat.GetAP()));
-	Print_t("DP: " + to_string(characterStat.GetDP()));
+	BaseUI::Print_t("HP: " + to_string(characterStat.GetHP()));
+	BaseUI::Print_t("MP: " + to_string(characterStat.GetMP()));
+	BaseUI::Print_t("AP: " + to_string(characterStat.GetAP()));
+	BaseUI::Print_t("DP: " + to_string(characterStat.GetDP()));
 
-	Print_BorderLine_Double();
+	BaseUI::Print_BorderLine_Double();
 
 }

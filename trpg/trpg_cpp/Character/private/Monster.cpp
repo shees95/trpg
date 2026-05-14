@@ -7,10 +7,8 @@
 #include "../../System/public/MonsterBase.h"
 #include "../../System/public/DBM.h"
 
-#include "../../System/public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 #include <cstdlib>
-
-using namespace TUI;
 
 Monster::Monster(const FMonster& NewMonster)
     : Character()
@@ -78,5 +76,5 @@ void Monster::Attack(Character& player)
 
 void Monster::Print_HitLog(Character& Target, int PushDamage)
 {
-    Print_ln("* " + GetName() + " attacked " + Target.GetName() + "!! (" + to_string(PushDamage) + ")");
+    BaseUI::Print_ln("* " + GetName() + " attacked " + Target.GetName() + "!! (" + to_string(PushDamage) + ")");
 }

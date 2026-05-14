@@ -1,10 +1,8 @@
 ﻿#include "../public/PotionShop.h"
 
 #include "../../Character/public/Character.h"
-#include "../public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 #include "../public/DBM.h"
-
-using namespace TUI;
 
 PotionShop::PotionShop()
 	: inventory(this)
@@ -16,8 +14,8 @@ void PotionShop::ShowShopBuyUI(Character& Buyer)
 {
 	ShowShopInventory();
 	
-	Print_ln("Want some?");
-	int selection = Print_Choice_Number(0, inventory.GetMaxSlot());
+	BaseUI::Print_ln("Want some?");
+	int selection = BaseUI::Print_Choice_Number(0, inventory.GetMaxSlot());
 	if (selection == 0) return;
 	
 	ShopBuy(Buyer, selection);
@@ -30,17 +28,17 @@ void PotionShop::ShowShopInventory()
 	{
 		if (item.GetStack() > 0)
 		{
-			Print_ln(to_string(i) + ". " + item.GetItemName() + " [" + to_string(item.GetStack()) + "] (" + to_string(item.GetPrice()) + "G)");
+			BaseUI::Print_ln(to_string(i) + ". " + item.GetItemName() + " [" + to_string(item.GetStack()) + "] (" + to_string(item.GetPrice()) + "G)");
 		}
 		else
 		{
-			Print_ln(to_string(i) + ". " + item.GetItemName() + " [Out of Stock]");
+			BaseUI::Print_ln(to_string(i) + ". " + item.GetItemName() + " [Out of Stock]");
 		}
 		
 		i++;
 	}
 	
-	Print_ln();
+	BaseUI::Print_ln();
 }
 
 void PotionShop::ShopBuy(Character& Buyer, const int& index)
@@ -83,14 +81,14 @@ void PotionShop::Init()
 
 void PotionShop::ShowAllRecipes()
 {
-	Print_ln();
+	BaseUI::Print_ln();
 	for (PotionRecipe pr : Recipes)
 	{
-		Print("-> " + pr.name + ": ");
+		BaseUI::Print("-> " + pr.name + ": ");
 		ShowIngredients(pr.ingredient);
-		Print_ln();
+		BaseUI::Print_ln();
 	}
-	Print_ln();
+	BaseUI::Print_ln();
 }
 
 void PotionShop::ShowIngredients(vector<Ingredient> ingredients)
@@ -100,13 +98,13 @@ void PotionShop::ShowIngredients(vector<Ingredient> ingredients)
 	{
 		
 		ShowIngredient(ingredient);
-		if (ingredients.size() >= ++index) Print(", ");
+		if (ingredients.size() >= ++index) BaseUI::Print(", ");
 	}
 }
 
 void PotionShop::ShowIngredient(Ingredient ingredient)
 {
-	Print(ingredient.name + " x" + to_string(ingredient.amount));
+	BaseUI::Print(ingredient.name + " x" + to_string(ingredient.amount));
 }
 
 void PotionShop::SearchByName(string name, bool isCorrect)
@@ -114,25 +112,25 @@ void PotionShop::SearchByName(string name, bool isCorrect)
 	bool isFind = false;
 	int CntFoundRecipes = 0;
 
-	Print_ln();
+	BaseUI::Print_ln();
 	for (const PotionRecipe& pr : Recipes)
 	{
 		if (pr.name.find(name) != string::npos)
 		{
-			Print("-> " + pr.name + ": ");
+			BaseUI::Print("-> " + pr.name + ": ");
 			ShowIngredients(pr.ingredient);
-			Print_ln();
+			BaseUI::Print_ln();
 
 			isFind = true;
 			CntFoundRecipes++;
 		}
 	}
-	Print_ln("Found " + to_string(CntFoundRecipes) + " Recipes");
-	Print_ln();
+	BaseUI::Print_ln("Found " + to_string(CntFoundRecipes) + " Recipes");
+	BaseUI::Print_ln();
 
 	if (!isFind)
 	{
-		Print_ln("* Search Fail");
+		BaseUI::Print_ln("* Search Fail");
 	}
 }
 
@@ -141,16 +139,16 @@ void PotionShop::SearchByIngredient(string ingredient, bool isCorrect)
 	bool isFind = false;
 	int CntFoundRecipes = 0;
 
-	Print_ln();
+	BaseUI::Print_ln();
 	for (const PotionRecipe& pr : Recipes)
 	{
 		for (const Ingredient& ingrd : pr.ingredient)
 		{
 			if (ingrd.name.find(ingredient) != string::npos)
 			{
-				Print("-> " + pr.name + ": ");
+				BaseUI::Print("-> " + pr.name + ": ");
 				ShowIngredients(pr.ingredient);
-				Print_ln();
+				BaseUI::Print_ln();
 
 				isFind = true;
 				CntFoundRecipes++;
@@ -159,12 +157,12 @@ void PotionShop::SearchByIngredient(string ingredient, bool isCorrect)
 		}
 		
 	}
-	Print_ln("Found " + to_string(CntFoundRecipes) + " Recipes");
-	Print_ln();
+	BaseUI::Print_ln("Found " + to_string(CntFoundRecipes) + " Recipes");
+	BaseUI::Print_ln();
 
 	if (!isFind)
 	{
-		Print_ln("* Search Fail");
+		BaseUI::Print_ln("* Search Fail");
 	}
 }
 
