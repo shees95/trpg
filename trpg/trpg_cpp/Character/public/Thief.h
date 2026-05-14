@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Job.h"
+#include "../public/Job.h"
 
 class CharacterStat;
 class Potion;

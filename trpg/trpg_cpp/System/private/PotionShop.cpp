@@ -1,5 +1,5 @@
-﻿#include "PotionShop.h"
-#include "TUI.h"
+﻿#include "../public/PotionShop.h"
+#include "../public/_TUI.h"
 
 using namespace TUI;
 

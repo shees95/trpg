@@ -1,26 +1,25 @@
 ﻿#include <iostream>
 #include <vector>
 
-#include "Character.h"
-#include "CharacterStat.h"
-#include "Potion.h"
-#include "Inventory.h"
+#include "Character/public/Character.h"
+#include "Character/public/CharacterStat.h"
+#include "System/public/Inventory.h"
+#include "System/public/ItemBase.h"
 
-#include "Archer.h"
-#include "Magician.h"
-#include "Thief.h"
-#include "Warrior.h"
+#include "Character/public/Archer.h"
+#include "Character/public/Magician.h"
+#include "Character/public/Thief.h"
+#include "Character/public/Warrior.h"
 
-#include "Monster.h"
-#include "DBM.h"
-#include "PotionShop.h"
+#include "Character/public/Monster.h"
+#include "System/public/DBM.h"
+#include "System/public/PotionShop.h"
 
-#include "TUI.h"
+#include "System/public/_TUI.h"
 
 using namespace std;
 using namespace TUI;
 
-int selectBuff(Character& chr);
 int selectPlayerTurn(Character& chr, Character& monster, bool& isGameStart);
 int selectIdleMenu(Character& chr, int& position, int& dungeon_lv, DBM& DB_Manager);
 int selectDungeon(int& position);
@@ -45,29 +44,19 @@ int main()
         // 캐릭터 생성
 
     // 플레이어 이름 설정
-    chr.createName();
+    chr.CreateName();
 
     // 스탯 입력
-    chr.getStat().Init_HPMP();
-    chr.getStat().Init_APDP();
+    chr.GetStat().Init_HPMP();
+    chr.GetStat().Init_APDP();
 
     // 포션 입력
-    chr.getInventory().setPotionBag();
-
+    chr.GetInventory().AddItems(DB_Manager.GetItemFromName("HP Potion"), 5);
+    chr.GetInventory().AddItems(DB_Manager.GetItemFromName("MP Potion"), 5);
+    
     // 스탯 출력
-    chr.getStat().Print_Stat();
-     /*
-    // 버프 정보
-    while (!isGameStart)
-    {
-        Print_Buff_Info();
-
-        if (selectBuff(chr) == 0) isGameStart = true;
-
-        Print_BorderLine_Double();
-    }
-    */
-
+    chr.GetStat().Print_Stat();
+    
         // 게임 시작
     Print_GameStart();
 
@@ -77,18 +66,18 @@ int main()
     switch (int selection = Print_Choice_Number(1, 4))
     {
     case 1:
-        chr.getOwner().setJob(new Warrior(chr.getOwner()));
+        chr.GetOwner().SetJob(new Warrior(chr.GetOwner()));
         break;
     
     case 2:
-        chr.getOwner().setJob(new Magician(chr.getOwner()));
+        chr.GetOwner().SetJob(new Magician(chr.GetOwner()));
         break;
     
     case 3:
-        chr.getOwner().setJob(new Thief(chr.getOwner()));
+        chr.GetOwner().SetJob(new Thief(chr.GetOwner()));
         break;
     case 4:
-        chr.getOwner().setJob(new Archer(chr.getOwner()));
+        chr.GetOwner().SetJob(new Archer(chr.GetOwner()));
         break;
     
     default:
@@ -137,12 +126,13 @@ int main()
         if(position == 2)
         {
             // 몬스터 생성
+            
             string m_name = DB_Manager.GetRandomMonsterKey(dungeon_lv);
-            monster = new Monster(m_name, DB_Manager.GetMonsterDB(m_name));
-
+            monster = new Monster(DB_Manager.GetMonsterDB(m_name));
+            
             // 전투 시작 UI
             Print_BattleStart(chr, *monster);
-
+            
             // 전투 루프
             while (position == 2)
             {
@@ -150,7 +140,7 @@ int main()
                 
                 selection = selectPlayerTurn(chr, *monster, isGameStart);
 
-                // 도망 시, 배틀 종료
+                // 플레이어 도망
                 if (selection == 0)
                 {
                     position = 0;
@@ -163,15 +153,17 @@ int main()
 
                 // 몬스터 턴
                 // 몬스터 생존 체크
-                if (monster->getStat().getHP() > 0)
+                if (monster->GetStat().GetHP() > 0)
                 {
                     monster->Attack(chr);
-
-                    if (chr.getStat().getHP() <= 0)
+    
+                    // 플레이어 패배
+                    if (chr.GetStat().GetHP() <= 0)
                     {
                         Print("******* You Defeated *******");
                         position = 0;
                         isGameStart = false;
+                        
                         delete monster;
                         monster = nullptr;
 
@@ -181,24 +173,24 @@ int main()
                 else
                 {
 
-                    // 승리 UI
+                    // 플레이어 승리 UI
                     Print_BattleVictory();
 
                     // 보상 생성
-                    vector<string> drops = DB_Manager.GetDropItemKeys(m_name);
+                    vector<string> drops = DB_Manager.GetDropItemFromName(m_name);
                     for (const string& itemName : drops)
                     {
                         Print_ln(" -> Got : " + itemName + "!");
 
                         // 보상 삽입
-                        chr.getInventory().addItem(itemName);
+                        chr.GetInventory().AddItems(DB_Manager.GetItemFromName(itemName), 1);
                     }
 
                     Print_ln();
                     Print_BorderLine_Single();
 
                     // 경험치 + 렙업
-                    chr.getStat().addExp(50);
+                    chr.GetStat().AddExp(50);
                         // 레벨업 보상
 
                     Print_ln();
@@ -212,8 +204,16 @@ int main()
                     break;
                 }
             }
+            
+            //  비 전투 시 항상 포인터 해제
+            if (monster != nullptr)
+            {
+                delete monster;
+                monster = nullptr;
+            }
         }
-
+        
+        
 
         // ------------------ 포션샵 ------------------
         if(position == 3)
@@ -247,50 +247,6 @@ int main()
 
 }
 
-int selectBuff(Character& chr)
-{
-    CharacterStat chrSt = chr.getStat();
-    Potion* chrPt = chr.getInventory().getPotion();
-
-    int selection = -1;
-    switch (selection = Print_Choice_Number(0, 5))
-    {
-    case 0:
-        return selection;
-
-    case 1:
-        if (!chrPt->Use_HP_Potion()) break;
-
-        chrSt.Buff_Add(0, 20);
-        chrPt->Print_Remain_HP_Potion();
-        return selection;
-
-    case 2:
-        if (!chrPt->Use_MP_Potion()) break;
-
-        chrSt.Buff_Add(1, 20);
-        chrPt->Print_Remain_MP_Potion();
-        return selection;
-
-    case 3:
-        chrSt.Buff_Mul(2, 2);
-        return selection;
-
-    case 4:
-        chrSt.Buff_Mul(3, 2);
-        return selection;
-
-    case 5:
-        chrSt.Print_Stat();
-        return selection;
-        
-    default:
-        break;
-    }
-
-    return selection;
-}
-
 int selectPlayerTurn(Character& chr, Character& monster, bool& isGameStart)
 {
 
@@ -307,19 +263,15 @@ int selectPlayerTurn(Character& chr, Character& monster, bool& isGameStart)
             return selection;
 
         case 1:
-            chr.getJob()->Attack(monster);
+            chr.GetJob()->Attack(monster);
             return selection;
 
         case 2:
             SelectItem(chr, 0, 1);
             return selection;
 
-            Print_BorderLine_Double();
-
-            break;
-
         case 3:
-            monster.getStat().Print_Stat();
+            monster.GetStat().Print_Stat();
             break;
 
         }
@@ -351,12 +303,12 @@ int selectIdleMenu(Character& chr, int& position, int& dungeon_lv, DBM& DB_Manag
 
         case 2:
             // 인벤 체크
-            chr.getInventory().ShowInventory(DB_Manager);
+            chr.GetInventory().ShowInventory();
             break;
 
         case 3:
             // 스텟 체크
-            chr.getStat().Print_Stat();
+            chr.GetStat().Print_Stat();
             break;
 
         case 4:
@@ -391,25 +343,20 @@ void SelectItem(Character& chr, int min, int max)
     int index = 0;
     while (true)
     {
-        chr.getStat().Print_Stat();
-        Print_UseItem_menu(chr.getInventory());
-
+        chr.GetStat().Print_Stat();
+        Print_UseItem_menu();
+        chr.GetInventory().ShowInventory();
+        
         Print("Select Use Item : ");
         cin >> index;
+        
+        if (index == 0) return;
 
-        switch (index)
+        // 인벤토리 인덱스 검사 (1-based 입력 대응)
+        index -= 1; 
+        if (index >= 0 && index < chr.GetInventory().GetMaxSlot())
         {
-        case 0:
-            return;
-        case 1:
-            chr.getStat().Print_Stat();
-            chr.getInventory().getPotion()->Use_HP_Potion();
-            chr.getStat().addHP(20);
-            break;
-        case 2:
-            chr.getStat().Print_Stat();
-            chr.getInventory().getPotion()->Use_MP_Potion();
-            chr.getStat().addMP(20);
+            chr.GetInventory().UseItem(index);
             break;
         }
 

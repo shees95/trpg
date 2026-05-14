@@ -1,18 +1,16 @@
 ﻿#pragma once
-#include "Job.h"
+#include "../public/Job.h"
 
 class CharacterStat;
 class Potion;
 
-class Archer : public Job
+class Warrior : public Job
 {
-	int DblRate = 30;
 public:
-	Archer(Character& Owner);
-	~Archer();
+	Warrior(Character& Owner);
+	~Warrior();
 
 	void Promoted() override;
 	void Promote_Buff() override;
 	void Attack(Character& Target) override;
-	bool getDoubleChance();
 };

@@ -1,8 +1,8 @@
-﻿#include "Archer.h"
-#include "Character.h"
-#include "CharacterStat.h"
+﻿#include "../public/Archer.h"
+#include "../public/Character.h"
+#include "../public/CharacterStat.h"
 
-#include "TUI.h"
+#include "../../System/public/_TUI.h"
 #include <algorithm>
 
 using namespace TUI;
@@ -35,24 +35,24 @@ void Archer::Promoted()
 
 void Archer::Promote_Buff()
 {
-	getOwner().getStat().Buff_Add(0, 50);
+	GetOwner().GetStat().Buff_Add(0, 50);
 }
 
 void Archer::Attack(Character& Target)
 {
 
-	CharacterStat& tst = Target.getStat();
-	CharacterStat& ost = getOwner().getStat();
+	CharacterStat& tst = Target.GetStat();
+	CharacterStat& ost = GetOwner().GetStat();
 
 
-	if (getDoubleChance()) maxAttackChance = 2;
+	if (GetDoubleChance()) maxAttackChance = 2;
 	
 
 	// 체력 적용
-	int PlayerAP = ost.getAP();
-	int TargetDP = tst.getDP();
-	int PushedDamage = tst.getHP();
-	int PushDamage = tst.getHP();
+	int PlayerAP = ost.GetAP();
+	int TargetDP = tst.GetDP();
+	int PushedDamage = tst.GetHP();
+	int PushDamage = tst.GetHP();
 
 	for (int attackChance = 0; attackChance < maxAttackChance; attackChance++)
 	{
@@ -68,16 +68,13 @@ void Archer::Attack(Character& Target)
 	}
 
 	// 데미지 적용
-	tst.setHP(PushDamage);
+	tst.SetHP(PushDamage);
 
 	maxAttackChance = 1;
 }
 
-bool Archer::getDoubleChance()
+bool Archer::GetDoubleChance()
 {
-	srand(time(NULL));
-	int min = 1, max = 100;
-	int random = rand() % (max - min + 1) + min;
-
-	return random < DblRate;
+	int random = rand() % 100 + 1;
+	return random <= DblRate;
 }

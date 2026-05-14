@@ -1,16 +1,16 @@
 ﻿#include <iostream>
 #include <string>
 
-#include "TUI.h"
 
-#include "Character.h"
-#include "CharacterStat.h"
-#include "Potion.h"
-#include "Inventory.h"
-#include "Job.h"
+#include "../../Character/public/Character.h"
+#include "../../Character/public/CharacterStat.h"
+#include "../../Character/public/Job.h"
+#include "../../Character/public/Monster.h"
 
+#include "../../System/public/Inventory.h"
 
-#include "Monster.h"
+#include "../../System/public/_TUI.h"
+
 
 using namespace std;
 
@@ -80,23 +80,33 @@ void TUI::Print_Buff_Info()
 
 int TUI::Print_Choice_Number(int min, int max)
 {
-    int input = -1;
-
-
+    int input;
     while (true)
     {
-        input = -1;
         Print("Select Number : ");
-        cin >> input;
+        if (!(cin >> input)) // 숫자가 아닌 값이 들어오면 false 반환
+        {
+            cin.clear(); // 에러 플래그 초기화
+            cin.ignore(256, '\n'); // 버퍼 비우기
+            Print_ln("! Invalid input. Please enter a number.");
+            continue;
+        }
 
         if (input >= min && input <= max) break;
+        
+        Print_ln("! Out of range. Try again.");
     }
-    
 
     Print_ln();
     Print_BorderLine_Single();
-
     return input;
+}
+
+void TUI::Wait_AnyKey()
+{
+    Print("\nPress Enter to continue...");
+    cin.ignore(256, '\n'); // 이전 입력의 잔여물 제거
+    cin.get(); // 엔터 입력 대기
 }
 
 void TUI::Print_Choice_Job()
@@ -124,10 +134,11 @@ void TUI::Print_GameStart()
 void TUI::Print_BattleStart(Character& player, Character& monster)
 {
     Print_BorderLine_Double();
-
-    Print("[Battle Start!]\t" + player.getName() + "(" + player.getJob()->getJobName() + ") vs " + monster.getName());
+    
+    Print("[Battle Start!]\t" + player.GetName() + "(" + player.GetJob()->GetJobName() + ") vs " + monster.GetName());
     Print_ln(2);
-
+    
+    Wait_AnyKey();
 }
 
 void TUI::Print_PlayerTurn_Select()
@@ -141,10 +152,10 @@ void TUI::Print_PlayerTurn_Select()
 
 }
 
-void TUI::Print_UseItem_menu(Inventory& inventory)
+void TUI::Print_UseItem_menu()
 {
     Print_ln("0. Go Back");
-    inventory.getPotion()->Print_Remain_Potion();
+    
     
 }
 void TUI::Print_BattleVictory()
@@ -157,9 +168,9 @@ void TUI::Print_BattleLose()
     Print_ln("* You Lose");
 }
 
-void TUI::Print_DropItem(DropItem* target)
+void TUI::Print_DropItem(const string& itemName)
 {
-
+    Print_ln(" >>> [획득] " + itemName + "을(를) 얻었습니다!");
 }
 
 void TUI::Print_IdleMenu()

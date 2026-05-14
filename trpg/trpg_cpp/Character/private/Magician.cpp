@@ -1,8 +1,8 @@
-﻿#include "Magician.h"
-#include "Character.h"
-#include "CharacterStat.h"
+﻿#include "../public/Magician.h"
+#include "../public/Character.h"
+#include "../public/CharacterStat.h"
 
-#include "TUI.h"
+#include "../../System/public/_TUI.h"
 #include <algorithm>
 
 using namespace TUI;
@@ -34,21 +34,21 @@ void Magician::Promoted()
 
 void Magician::Promote_Buff()
 {
-	getOwner().getStat().Buff_Add(1, 50);
+	GetOwner().GetStat().Buff_Add(1, 50);
 }
 
 void Magician::Attack(Character& Target)
 {
 
-	CharacterStat& tst = Target.getStat();
-	CharacterStat& ost = getOwner().getStat();
+	CharacterStat& tst = Target.GetStat();
+	CharacterStat& ost = GetOwner().GetStat();
 
 
 	// 체력 적용
-	int PlayerAP = ost.getAP() / maxAttackChance;
-	int TargetDP = tst.getDP() / maxAttackChance;
-	int PushedDamage = tst.getHP();
-	int PushDamage = tst.getHP();
+	int PlayerAP = ost.GetAP() / maxAttackChance;
+	int TargetDP = tst.GetDP() / maxAttackChance;
+	int PushedDamage = tst.GetHP();
+	int PushDamage = tst.GetHP();
 
 	for (int attackChance = 0; attackChance < maxAttackChance; attackChance++)
 	{
@@ -64,6 +64,6 @@ void Magician::Attack(Character& Target)
 	}
 
 	// 데미지 적용
-	tst.setHP(PushDamage);
+	tst.SetHP(PushDamage);
 
 }
