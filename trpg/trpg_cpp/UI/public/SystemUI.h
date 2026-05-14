@@ -13,7 +13,7 @@ public:
     static int SelectVillageMenu(Character& chr, int& position);
     
     static void Print_PosionShopMenu();
-    void SelectPotionShop(PotionShop& PotionShop, Character& chr, int& position);
+    static void SelectPotionShop(PotionShop& PotionShop, Character& chr, int& position);
     
     static int SelectDungeon(int& position);
     

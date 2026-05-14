@@ -21,7 +21,8 @@ void BattleUI::Print_PlayerTurn_Select()
 
     BaseUI::Print_t("1. Attack");
     BaseUI::Print_t("2. Use Item");
-    BaseUI::Print_t("3. Show Monster Stat");
+    BaseUI::Print_t("3. Show Your Stat");
+    BaseUI::Print_t("4. Show Monster Stat");
     BaseUI::Print_ln("0. Run");
 
 }
@@ -44,7 +45,7 @@ int BattleUI::SelectPlayerTurn(Character& chr, Character& monster, bool& isGameS
     {
         Print_PlayerTurn_Select();
 
-        switch (selection = BaseUI::Print_Choice_Number(0, 3))
+        switch (selection = BaseUI::Print_Choice_Number(0, 4))
         {
         case 0:
             Print_BattleLose();
@@ -59,6 +60,10 @@ int BattleUI::SelectPlayerTurn(Character& chr, Character& monster, bool& isGameS
             return selection;
 
         case 3:
+            chr.GetStat().Print_Stat();
+            break;
+            
+        case 4:
             monster.GetStat().Print_Stat();
             break;
 

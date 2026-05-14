@@ -76,5 +76,6 @@ void Monster::Attack(Character& player)
 
 void Monster::Print_HitLog(Character& Target, int PushDamage)
 {
-    BaseUI::Print_ln("* " + GetName() + " attacked " + Target.GetName() + "!! (" + to_string(PushDamage) + ")");
+    BaseUI::Print_ln("* " + GetName() + " attacked you ( " + to_string(PushDamage) + "!! )");
+    BaseUI::Print_ln();
 }

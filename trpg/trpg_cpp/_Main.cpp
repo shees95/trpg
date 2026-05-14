@@ -83,7 +83,7 @@ int main()
         if(position == 3)
         {
             SystemUI::Print_PosionShopMenu();
-            
+            SystemUI::SelectPotionShop(potionShop, chr, position);
 
         }
         // ==========================================

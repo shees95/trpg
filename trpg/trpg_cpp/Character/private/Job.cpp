@@ -35,7 +35,7 @@ string Job::GetWeapon()
 
 void Job::Print_HitLog(Character& Target, int PlayerAP, int PushedDamage, int PushDamage)
 {
-	BaseUI::Print_ln("You use " + Weapon_Name + " to " + Target.GetName() + " (" + to_string(PlayerAP) + ")");
+	BaseUI::Print_ln("* You use " + Weapon_Name + " to " + Target.GetName() + " ( " + to_string(PushedDamage - PushDamage) + "!! )");
 	BaseUI::Print(Target.GetName() + " HP : " + to_string(PushedDamage) + " -> " + to_string(PushDamage));
 }
 
