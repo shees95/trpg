@@ -22,13 +22,19 @@ void ItemBase::Init(const FItemBase& NewItem)
     ItemInfo.AddValue = NewItem.AddValue;
 }
 
-void ItemBase::AddItem()
+void ItemBase::AddItem(const int& amount)
 {
-    Cur_Stack++;
+    Cur_Stack += amount;
+}
+
+void ItemBase::SubItem(const int& amount)
+{
+    Cur_Stack -= amount;
 }
 
 void ItemBase::UseItem(Character& User)
 {
+    
     if (ItemInfo.AddType != -1&& Cur_Stack > 0)
     {
         User.GetStat().Restore_Add(ItemInfo.AddType, ItemInfo.AddValue);

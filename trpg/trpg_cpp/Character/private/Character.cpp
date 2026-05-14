@@ -2,9 +2,10 @@
 #include <string>
 
 #include "../public/Character.h"
+
+#include "../../Interface/public/Actor.h"
 #include "../public/CharacterStat.h"
 #include "../public/Job.h"
-
 #include "../../System/public/Inventory.h"
 
 #include "../../System/public/_TUI.h"

@@ -92,6 +92,7 @@ int main()
     int dungeon_lv = 1;
     Monster* monster;
     string input = "";
+    
     while (isGameStart)
     {
 
@@ -113,15 +114,44 @@ int main()
         }
         // ==========================================
         
-        
+        // ------------------ 포션샵 ------------------
+        if(position == 3)
+        {
+            Print_PosionShopMenu();
+            switch (Print_Choice_Number(0, 4))
+            {
+            case 0:
+                position = 0;
+                break;
+
+            case 1:
+                potionShop.ShowAllRecipes();
+                break;
+
+            case 2:
+                Print("Search Potion name : ");
+                cin >> input;
+                potionShop.SearchByName(input, true);
+                break;
+
+            case 3:
+                Print("Search Ingredient name : ");
+                cin >> input;
+                potionShop.SearchByIngredient(input, true);
+                break;
+            case 4:
+                potionShop.ShowShopBuyUI(chr);
+                break;
+            }
+
+        }
+        // ==========================================
         
         // ------------------ 던전 고르기 ------------------ 
         if(position == 1) dungeon_lv = selectDungeon(position);
         if (dungeon_lv == 0) position = 0;  // 마을로 귀환
         // ==========================================
         
-
-
         // ------------------ 던전 ------------------
         if(position == 2)
         {
@@ -215,34 +245,7 @@ int main()
         
         
 
-        // ------------------ 포션샵 ------------------
-        if(position == 3)
-        {
-            Print_PosionShopMenu();
-            switch (Print_Choice_Number(0, 3))
-            {
-            case 0:
-                position = 0;
-                break;
-
-            case 1:
-                potionShop.ShowAllRecipes();
-                break;
-
-            case 2:
-                Print("Search Potion name : ");
-                cin >> input;
-                potionShop.SearchByName(input, true);
-                break;
-
-            case 3:
-                Print("Search Ingredient name : ");
-                cin >> input;
-                potionShop.SearchByIngredient(input, true);
-                break;
-            }
-
-        }
+        
     }
 
 }

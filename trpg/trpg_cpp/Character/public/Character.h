@@ -1,12 +1,14 @@
 ﻿#pragma once
+
 #include <string>
 
 #include "../public/CharacterStat.h"
 #include "../../System/public/Inventory.h"
+#include "../../Interface/public/Actor.h"
 class Job;
 using namespace std;
 
-class Character
+class Character : public Actor
 {
 public:
 	Character();

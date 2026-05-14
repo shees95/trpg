@@ -1,16 +1,65 @@
 ﻿#include "../public/PotionShop.h"
+
+#include "../../Character/public/Character.h"
 #include "../public/_TUI.h"
+#include "../public/DBM.h"
 
 using namespace TUI;
 
 PotionShop::PotionShop()
+	: inventory(this)
 {
 	Init();
+}
+
+void PotionShop::ShowShopBuyUI(Character& Buyer)
+{
+	ShowShopInventory();
+	
+	Print_ln("Want some?");
+	int selection = Print_Choice_Number(0, inventory.GetMaxSlot());
+	if (selection == 0) return;
+	
+	ShopBuy(Buyer, selection);
+}
+
+void PotionShop::ShowShopInventory()
+{
+	int i = 1;
+	for (ItemBase& item : inventory.GetInven())
+	{
+		if (item.GetStack() > 0)
+		{
+			Print_ln(to_string(i) + ". " + item.GetItemName() + " [" + to_string(item.GetStack()) + "] (" + to_string(item.GetPrice()) + "G)");
+		}
+		else
+		{
+			Print_ln(to_string(i) + ". " + item.GetItemName() + " [Out of Stock]");
+		}
+		
+		i++;
+	}
+	
+	Print_ln();
+}
+
+void PotionShop::ShopBuy(Character& Buyer, const int& index)
+{
+	// 재고 있음
+	if (inventory.GetInven(index - 1).GetStack() > 0)
+	{
+		Buyer.GetInventory().AddItem(inventory.GetInven(index - 1).GetItemInfo());
+		inventory.GetInven(index - 1).SubItem(1);
+		
+	}
 }
 
 
 void PotionShop::Init()
 {
+	inventory.AddItems(DBM::GetItemFromName("HP Potion"), 5);
+	inventory.AddItems(DBM::GetItemFromName("MP Potion"), 5);
+	
 	Recipes.emplace_back(
 		"HP Potion",
 		vector<Ingredient>

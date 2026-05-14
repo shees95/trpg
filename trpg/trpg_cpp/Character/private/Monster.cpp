@@ -66,8 +66,8 @@ int Monster::GetRand(int a, int b)
 
 void Monster::Attack(Character& player)
 {
-    CharacterStat pst = player.GetStat();
-    CharacterStat ost = GetStat();
+    CharacterStat& pst = player.GetStat();
+    CharacterStat& ost = GetStat();
 
     // 체력 적용
     int PushDamage = pst.GetHP() - max(ost.GetAP() - pst.GetDP(), 1);

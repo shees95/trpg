@@ -4,7 +4,7 @@
 
 // #include "../../Character/public/Character.h"
 class Character;
-
+class Actor;
 using namespace std;
 
 class Character;
@@ -31,11 +31,12 @@ public:
     void Init(const ItemBase& NewItem);
     void Init(const FItemBase& NewItem);
     
-    void AddItem();
+    void AddItem(const int& amount);
+    void SubItem(const int& amount);
     virtual void UseItem(Character& User);
     const FItemBase& GetItemInfo() { return ItemInfo; }
     
-    const int& GetStack() { return Cur_Stack; }
+    const int& GetStack() const { return Cur_Stack; }
     
     const string& GetItemName() const { return ItemInfo.ItemName; }
     const int& GetPrice() const { return ItemInfo.Price; }

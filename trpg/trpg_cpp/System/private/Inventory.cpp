@@ -3,11 +3,15 @@
 #include "../public/DBM.h"
 #include "../public/_TUI.h"
 #include "../public/ItemBase.h"
+#include "../../Character/public/Character.h"
+#include <typeinfo>
 #include "algorithm"
+
+class Actor;
 
 using namespace TUI;
 
-Inventory::Inventory(Character* Owner)
+Inventory::Inventory(Actor* Owner)
 {
 	this->Owner = Owner;
 }
@@ -27,7 +31,7 @@ void Inventory::AddItem(const FItemBase& NewItem)
 		if (Inven[i].GetItemInfo().ItemName == NewItem.ItemName && Inven[i].GetStack() < Inven[i].GetMaxStack())
 		{
 			isExists = true;
-			Inven[i].AddItem();
+			Inven[i].AddItem(1);
 			break;
 		}
 	}
@@ -36,9 +40,9 @@ void Inventory::AddItem(const FItemBase& NewItem)
 	{
 		ItemBase InsertInventoryItem;
 		InsertInventoryItem.Init(NewItem);
-		InsertInventoryItem.AddItem();
+		InsertInventoryItem.AddItem(1);
 		Inven.push_back(InsertInventoryItem);
-		SortInventory();
+		
 	}
 	
 	
@@ -50,17 +54,29 @@ void Inventory::AddItems(const FItemBase& Item, int stack)
 	{
 		AddItem(Item);
 	}
-	
+	SortInventory();
 	Print_ln("* Saved to inventory.");
 }
 
 void Inventory::UseItem(const int& index)
 {
-	Inven[index].UseItem(*Owner);
-	if (Inven[index].GetStack() <= 0)
+	if (index < 0 || index >= (int)Inven.size()) 
 	{
-		Inven.erase(Inven.begin() + index);
+		std::cout << "Invalid Index!" << std::endl;
+		return;
 	}
+
+	Character* _Owner = (Character*)Owner; // 순환 참조 주의
+	
+	if (_Owner != nullptr)
+	{
+		Inven[index].UseItem(*_Owner);
+		if (Inven[index].GetStack() <= 0)
+		{
+			Inven.erase(Inven.begin() + index);
+		}
+	}
+	
 }
 
 
@@ -107,6 +123,6 @@ void Inventory::SortInventory()
 {
 	std::sort(Inven.begin(), Inven.end(), [](const ItemBase& a, const ItemBase& b)
 	{
-		return a.GetPrice() < b.GetPrice();
+		return a.GetPrice() > b.GetPrice();
 	});
 }

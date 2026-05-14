@@ -194,6 +194,7 @@ void TUI::Print_PosionShopMenu()
     Print_ln("1. Show all recipes");
     Print_ln("2. Search by potion name");
     Print_ln("3. Search by ingredient");
+    Print_ln("4. Buy Potions");
     Print_ln("0. Go back");
 }
 
