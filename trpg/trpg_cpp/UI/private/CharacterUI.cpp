@@ -36,7 +36,7 @@ void CharacterUI::SelectItem(Character& chr, int min, int max)
     int index = 0;
     while (true)
     {
-        chr.GetStat().Print_Stat();
+        CharacterUI::Print_Stat(chr);
         CharacterUI::Print_UseItem_menu();
         chr.GetInventory().ShowInventory();
         
@@ -54,4 +54,30 @@ void CharacterUI::SelectItem(Character& chr, int min, int max)
         }
 
     }
+}
+
+
+void CharacterUI::Print_Stat(Character& chr)
+{
+    CharacterStat Stat = chr.GetStat();
+
+    BaseUI::Print_BorderLine_Double();
+
+    BaseUI::Print_ln(); 
+	
+    BaseUI::Print_t();  BaseUI::Print_t("Lv. " + to_string(chr.GetStat().GetLv()));   BaseUI::Print_t(chr.GetName() + "'s Stats");
+    BaseUI::Print("(Exp: " + to_string(chr.GetStat().GetExp()) + "/" + to_string(chr.GetStat().GetMaxExp()) + ")");
+
+    BaseUI::Print_ln();
+    BaseUI::Print_BorderLine_Single();
+
+    BaseUI::Print_t("HP: " + to_string(Stat.GetHP()) + " / " + to_string(Stat.GetMaxHP()));
+							   									 
+    BaseUI::Print_t("MP: " + to_string(Stat.GetMP()) + " / " + to_string(Stat.GetMaxMP()));
+    BaseUI::Print_ln();					   
+						   
+    BaseUI::Print_t("AP: " + to_string(Stat.GetAP()));
+					   
+    BaseUI::Print_t("DP: " + to_string(Stat.GetDP()));
+    BaseUI::Print_BorderLine_Double();
 }

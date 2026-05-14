@@ -74,8 +74,6 @@ public:
 	const int& GetMaxExp() { return stat[9]; }
 	void SetMaxExp(const int& maxexp);
 
-	void Print_Stat();
-
 	void Buff_Add(int index, int value = 0);
 	void Buff_Mul(int index, int value = 1);
 	

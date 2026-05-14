@@ -14,137 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99285690-0a3b-41ed-8d42-2540b2fb9c17" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/CopilotIndices/17.14.1593.33849/CodeChunks.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/CopilotIndices/17.14.1593.33849/SemanticSymbols.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/FileContentIndex/1fb8e878-a21c-4103-9ca0-7aad1e24e85e.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/FileContentIndex/27d97370-e730-465f-ac5c-58614ab2b8e3.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/FileContentIndex/27ec932d-cef4-4c41-8298-373d4896863f.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/FileContentIndex/27f7074f-0326-4199-90d2-c31b69a985b7.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/FileContentIndex/404b68a5-4c9a-464c-b47f-7893dfde1efc.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/copilot-chat/37b5f5b2/sessions/4b786d3b-a77a-4c37-bc00-37d39e4317a1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/Browse.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/DocumentLayout.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/Solution.VC.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/114a4c2486bc1ea5/DBM.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/16d4d69d42ae2cdf/CHARACTERSTAT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/1a0b317e685bf44d/CHARACTERSTAT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/1fc6466398298887/MAGICIAN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/21aaeb09f1470479/ITEMSPAWNER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/25339706334eb7a3/PLAYER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/2a9b0a4be72a9c82/WARRIOR_1.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/2ae83a6dafa2a8ee/NOJOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/2c14f0283ec7dc22/WARRIOR.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/30096353980effda/JOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/374c4c0ce09a2005/POTION.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/3763009114123ff7/WARRIOR.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/37d0bf2012952684/ARCHER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/3cde461e769091ac/DBM.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/3cfefad51e0aa2ff/TRPG_CPP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/3ecd12c77070e90d/ARCHER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/41cc60e9e11d3121/_TUI.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/4452afe4b6da7f23/ARCHER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/4859ab52d39c1325/POTION.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/494d2f3c913f6401/CHARACTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/4f8702957a3b878/_MAIN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/52f1f21e86d5f5/VCTMP321692_933782._MAIN.00000000.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/57ffebe2d23d5703/PLAYER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/5a922e28e58a13e0/MONSTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/5e448b2a1b30d3a/MAGICIAN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/5e5febb2b01fb460/ITEMSPAWNER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/5f646d9863a346da/TUI.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/6064db26bb90ae11/TRPG_CPP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/64dbea3d5f1d953b/MAIN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/6605d1bedc1c9a11/JOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/6e6a855b7abbe933/POTION.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/702d0039d3c6c106/_MAIN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/7276d1068818443a/MONSTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/72e0612cc3c56c82/WARRIOR.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/778335d45d9007ad/CHARACTERSTAT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/77d471567bb7ff27/JOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/79959fa2ab770746/PLAYER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/79c4fde8f588f87a/TUI.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/79f8aebd1957279f/TRPG_CPP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/7d47e3d64e34db39/TMP6308.TMP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/7e91ffe8f3ca69ed/ARCHER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/85268546ba6973b3/CHARACTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/87853d5165ded78a/INVENTORY.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/88ab52d666dc461c/WARRIOR.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/8ed912b9b99a7b4b/_TUI.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/999f94cc49a3eff7/WARRIOR_1.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/9a42e0ee2d1eafe2/INVENTORY.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/9ac64be73ca56760/INVENTORY.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/9bd01053a9af1690/ITEM.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a1f59dd3d2ac2056/THIEF.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a24f5047951c4131/INVENTORY.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a3bdf332b6f4689c/THIEF.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a711614375b54cbf/TUI.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a758bc33c4d8c3d3/CHARACTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a7ffcee949950cf5/MAGICIAN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a83d2176b91361d6/CHARACTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/a8feae6be5d94390/POTIONSHOP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/ac3fe157268c43e7/MAGICIAN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/acfccad30d77ae07/POTIONSHOP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/b5dcf21975387b87/JOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/b6f2f6d8c3de1d1f/DBM.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/bac910158f18ad3c/THIEF.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/ce97d64e3cfd997d/QUJ44QPI..ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/d7e5ae4e62805e1d/TMPEBAF.TMP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/e5040a5c8f4f4d13/TMP5666.TMP.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/e90ecac3d386a93b/VCTMP321692_971729._TUI.00000000.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/ea07799ac99b44d/DB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/ef76f19f3f055753/NOJOB.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/f350d5e3e4878f4d/THIEF.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/f4ea061c99b7f22c/POTION.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/f5d0cecba243ae1f/MONSTER.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/f8114f7931aec424/CHARACTERSTAT.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/f8e34fc6631a0377/VCTMP131228_544989.TUI.00000000.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/trpg_cpp/v17/ipch/AutoPCH/fc8bc0ca33418a29/POTIONSHOP.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cp/Inventory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cp/ItemBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Archer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Archer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Archer.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Archer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Character.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Monster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Monster.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/public/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Character.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/CharacterStat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/CharacterStat.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/CharacterStat.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/CharacterStat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/DBM.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/DBM.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/DBM.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/public/DBM.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Job.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Job.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Job.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Job.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Magician.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Magician.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Magician.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Magician.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Monster.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Monster.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Potion.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Potion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/Inventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/Inventory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/ItemBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/ItemBase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/PotionShop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/PotionShop.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/_TUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/_TUI.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/public/Inventory.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/public/Inventory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/public/ItemBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/public/ItemBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/public/PotionShop.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/public/PotionShop.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/TUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/public/_TUI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Thief.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Thief.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Thief.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Thief.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Warrior.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Warrior.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/Warrior.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Warrior.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.trpg_cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.trpg_cpp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/CharacterStat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/CharacterStat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/public/CharacterStat.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/CharacterStat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/CharacterUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/CharacterUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/SystemUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/SystemUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/CharacterUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/public/CharacterUI.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/_Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/_Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/trpg_cpp.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/trpg_cpp.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/Cl.items.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.secondary.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/vc143.idb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,32 +77,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ 프로젝트.trpg_cpp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/Inventory-Template&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ 프로젝트.trpg_cpp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "dev",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="trpg_cpp" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -254,6 +135,7 @@
       <workItem from="1778500654292" duration="2856000" />
       <workItem from="1778548226360" duration="4169000" />
       <workItem from="1778715374843" duration="23349000" />
+      <workItem from="1778802358166" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="- main&#10;void selectItem() : switch default 추가">
       <option name="closed" value="true" />

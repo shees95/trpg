@@ -157,7 +157,7 @@ int SystemUI::SelectVillageMenu(Character& chr, int& position)
 
         case 3:
             // 스텟 체크
-            chr.GetStat().Print_Stat();
+            CharacterUI::Print_Stat(chr);
             break;
 
         case 4:

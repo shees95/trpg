@@ -170,30 +170,7 @@ void CharacterStat::SetDP(int dp)
 	stat[6] = max(dp, 1);
 }
 
-void CharacterStat::Print_Stat()
-{
-	CharacterStat Stat = GetOwner()->GetStat();
 
-	BaseUI::Print_BorderLine_Double();
-
-	BaseUI::Print_ln(); 
-	
-	BaseUI::Print_t();  BaseUI::Print_t("Lv. " + to_string(GetLv()));   BaseUI::Print_t(Owner->GetName() + "'s Stats");
-	BaseUI::Print("(Exp: " + to_string(GetExp()) + "/" + to_string(GetMaxExp()) + ")");
-
-	BaseUI::Print_ln();
-	BaseUI::Print_BorderLine_Single();
-
-	BaseUI::Print_t("HP: " + to_string(Stat.GetHP()) + " / " + to_string(Stat.GetMaxHP()));
-							   									 
-	BaseUI::Print_t("MP: " + to_string(Stat.GetMP()) + " / " + to_string(Stat.GetMaxMP()));
-	BaseUI::Print_ln();					   
-						   
-	BaseUI::Print_t("AP: " + to_string(Stat.GetAP()));
-					   
-	BaseUI::Print_t("DP: " + to_string(Stat.GetDP()));
-	BaseUI::Print_BorderLine_Double();
-}
 
 void CharacterStat::Buff_Add(int statindex, int value)
 {

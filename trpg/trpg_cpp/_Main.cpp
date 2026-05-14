@@ -45,7 +45,7 @@ int main()
     chr.GetInventory().AddItems(DBM::GetItemFromName("MP Potion"), 5);
     
     // 스탯 출력
-    chr.GetStat().Print_Stat();
+    CharacterUI::Print_Stat(chr);
     
         // 게임 시작
     SystemUI::Print_GameStart();

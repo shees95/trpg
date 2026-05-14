@@ -60,11 +60,11 @@ int BattleUI::SelectPlayerTurn(Character& chr, Character& monster, bool& isGameS
             return selection;
 
         case 3:
-            chr.GetStat().Print_Stat();
+            CharacterUI::Print_Stat(chr);
             break;
             
         case 4:
-            monster.GetStat().Print_Stat();
+            CharacterUI::Print_Stat(monster);
             break;
 
         }
