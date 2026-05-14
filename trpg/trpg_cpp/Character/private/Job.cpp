@@ -10,10 +10,9 @@
 
 #include "../public/Character.h"
 
-#include "../../System/public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 
 using namespace std;
-using namespace TUI;
 
 Job::Job(Character& Owner)
 { 
@@ -36,7 +35,7 @@ string Job::GetWeapon()
 
 void Job::Print_HitLog(Character& Target, int PlayerAP, int PushedDamage, int PushDamage)
 {
-	Print_ln("You use " + Weapon_Name + " to " + Target.GetName() + " (" + to_string(PlayerAP) + ")");
-	Print(Target.GetName() + " HP : " + to_string(PushedDamage) + " -> " + to_string(PushDamage));
+	BaseUI::Print_ln("You use " + Weapon_Name + " to " + Target.GetName() + " (" + to_string(PlayerAP) + ")");
+	BaseUI::Print(Target.GetName() + " HP : " + to_string(PushedDamage) + " -> " + to_string(PushDamage));
 }
 

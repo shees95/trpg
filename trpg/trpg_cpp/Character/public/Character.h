@@ -28,6 +28,8 @@ public:
 	Inventory& GetInventory() { return inventory; }
 	
 	void CreateName();
+	void CreateCharacter();
+	
 	void SetName(const string& Name) { this->Name = Name; }
 	void SetJob(Job* job);
 	

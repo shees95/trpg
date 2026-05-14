@@ -2,10 +2,8 @@
 #include "../public/Character.h"
 #include "../public/CharacterStat.h"
 
-#include "../../System/public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 #include <algorithm>
-
-using namespace TUI;
 
 Thief::Thief(Character& Owner) : Job(Owner)
 {
@@ -15,8 +13,8 @@ Thief::Thief(Character& Owner) : Job(Owner)
 	Promoted();
 	Promote_Buff();
 
-	Print_BorderLine_Double();
-	Print_ln(2);
+	BaseUI::Print_BorderLine_Double();
+	BaseUI::Print_ln(2);
 
 	maxAttackChance = 5;
 }
@@ -27,8 +25,8 @@ Thief::~Thief()
 
 void Thief::Promoted()
 {
-	Print_ln("* You became a " + Job_Name);
-	Print_ln("* You can use " + Weapon_Name);
+	BaseUI::Print_ln("* You became a " + Job_Name);
+	BaseUI::Print_ln("* You can use " + Weapon_Name);
 
 }
 
@@ -58,8 +56,8 @@ void Thief::Attack(Character& Target)
 
 		PushedDamage = PushDamage;
 
-		if (PushDamage <= 0) Print_ln(" (Dead)");
-		else Print_ln();
+		if (PushDamage <= 0) BaseUI::Print_ln(" (Dead)");
+		else BaseUI::Print_ln();
 	}
 
 	// 데미지 적용

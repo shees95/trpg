@@ -28,6 +28,9 @@ public:
 	
 	Character* GetOwner() { return Owner; }
 
+	void Init();
+	void Init_HPMP();
+	void Init_APDP();
 	
 	const int& GetLv() const { return Level; }
 	void SetLv(int lv = 1);
@@ -70,10 +73,6 @@ public:
 	
 	const int& GetMaxExp() { return stat[9]; }
 	void SetMaxExp(const int& maxexp);
-	
-	
-	void Init_HPMP();
-	void Init_APDP();
 
 	void Print_Stat();
 

@@ -1,6 +1,6 @@
 #pragma once
 
-class MonsterUI
+class PotionShopUI
 {
 public:
     

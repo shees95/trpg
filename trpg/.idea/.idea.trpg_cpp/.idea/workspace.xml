@@ -14,11 +14,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99285690-0a3b-41ed-8d42-2540b2fb9c17" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/PotionShopUI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/SystemUI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trpg_cpp/UI/public/SystemUI.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.trpg_cpp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.trpg_cpp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Archer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Archer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/CharacterStat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/CharacterStat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Job.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Job.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Magician.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Magician.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Monster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Monster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Thief.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Thief.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/private/Warrior.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/private/Warrior.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/public/Character.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/Character.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/Character/public/CharacterStat.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/Character/public/CharacterStat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/Inventory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/Inventory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/PotionShop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/System/private/PotionShop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/private/_TUI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/System/public/_TUI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/CharacterUI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/private/CharacterUI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/MonsterUI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/PotionShop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/private/System_Inventory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/BattleUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/public/BattleUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/CharacterUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/public/CharacterUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/MonsterUI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/PotionShop.h" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/UI/public/PotionShopUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/UI/public/System_Inventory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/_Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/_Main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/trpg_cpp.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/trpg_cpp.vcxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/trpg_cpp.tlog/link.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trpg_cpp/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/trpg_cpp/x64/Debug/vc143.idb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +84,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://48" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/trpg_cpp/System/private/ItemBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/trpg_cpp/System/private/MonsterBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/private/BaseUI.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/private/MonsterUI.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/private/PotionShop.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/private/System_Inventory.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/trpg_cpp/UI/public/BattleUI.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -77,7 +109,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "C/C++ 프로젝트.trpg_cpp.executor": "Debug",
+    "C/C++ 프로젝트.trpg_cpp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -231,6 +263,10 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/trpg_cpp/UI/private/BattleUI.cpp</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

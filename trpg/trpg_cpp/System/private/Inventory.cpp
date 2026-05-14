@@ -1,15 +1,15 @@
 ﻿#include <vector>
 #include "../public/Inventory.h"
-#include "../public/DBM.h"
-#include "../public/_TUI.h"
 #include "../public/ItemBase.h"
+
 #include "../../Character/public/Character.h"
+
+#include "../../UI/public/BaseUI.h"
+
 #include <typeinfo>
 #include "algorithm"
 
 class Actor;
-
-using namespace TUI;
 
 Inventory::Inventory(Actor* Owner)
 {
@@ -55,7 +55,7 @@ void Inventory::AddItems(const FItemBase& Item, int stack)
 		AddItem(Item);
 	}
 	SortInventory();
-	Print_ln("* Saved to inventory.");
+	BaseUI::Print("* Saved to inventory.\n");
 }
 
 void Inventory::UseItem(const int& index)
@@ -90,7 +90,7 @@ void Inventory::SellItem(const int& index)
 void Inventory::ExpandSlot(const int& index)
 {
 	SetMaxSlot(index);
-	Print_ln("* Your bag has expanded.");
+	BaseUI::Print_ln("* Your bag has expanded.");
 }
 
 void Inventory::SetMaxSlot(const int& max)
@@ -111,13 +111,13 @@ void Inventory::UseMoney(const int& Money)
 
 void Inventory::ShowInventory()
 {
-	Print_ln("[ Inventory (" + to_string(Inven.size()) + " / " + to_string(GetMaxSlot()) + ") ]");
+	BaseUI::Print_ln("[ Inventory (" + to_string(Inven.size()) + " / " + to_string(GetMaxSlot()) + ") ]");
 	for (int i = 0; i < Inven.size(); i++)
 	{
-		Print_ln(to_string(i + 1) + ": " + Inven[i].GetItemInfo().ItemName + " [" + to_string(Inven[i].GetStack()) + "] (" + to_string(Inven[i].GetPrice() * Inven[i].GetStack()) + "G)");
+		BaseUI::Print_ln(to_string(i + 1) + ": " + Inven[i].GetItemInfo().ItemName + " [" + to_string(Inven[i].GetStack()) + "] (" + to_string(Inven[i].GetPrice() * Inven[i].GetStack()) + "G)");
 	}
 	
-	Print_BorderLine_Single();
+	BaseUI::Print_BorderLine_Single();
 }
 void Inventory::SortInventory()
 {

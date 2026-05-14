@@ -3,10 +3,16 @@
 #include "../public/CharacterStat.h"
 #include "../public/Character.h"
 
-#include "../../System/public/_TUI.h"
+#include "../../UI/public/BaseUI.h"
 
 
-using namespace TUI;
+void CharacterStat::Init()
+{
+	SetMaxExp(100);
+	SetExp(0);
+	Init_HPMP();
+	Init_APDP();
+}
 
 void CharacterStat::SetLv(int lv)
 {
@@ -28,8 +34,8 @@ void CharacterStat::AddLv()
 	this->SetAP(GetAP() + 5);
 	this->SetDP(GetDP() + 1);
 
-	Print_ln("-> Level UP! (Lv." + to_string(GetLv() - 1) + " -> " + to_string(GetLv()) + ")");
-	Print_ln("-> HP +10, MP +5, AP +5, DP +1");
+	BaseUI::Print_ln("-> Level UP! (Lv." + to_string(GetLv() - 1) + " -> " + to_string(GetLv()) + ")");
+	BaseUI::Print_ln("-> HP +10, MP +5, AP +5, DP +1");
 }
 
 void CharacterStat::SetExp(const int& exp)
@@ -40,7 +46,7 @@ void CharacterStat::SetExp(const int& exp)
 void CharacterStat::AddExp(const int& val)
 {
 	SetExp(GetExp() + val);
-	Print_ln("-> +" + to_string(val) + "EXP! (EXP: " + to_string(GetExp()) + "/" + to_string(GetMaxExp()) + ")");
+	BaseUI::Print_ln("-> +" + to_string(val) + "EXP! (EXP: " + to_string(GetExp()) + "/" + to_string(GetMaxExp()) + ")");
 	
 	while (GetExp() >= GetMaxExp()) 
 	{
@@ -54,6 +60,7 @@ void CharacterStat::SetMaxExp(const int& maxexp)
 	stat[9] = maxexp;
 }
 
+
 void CharacterStat::Init_HPMP()
 {
 	int HP = 0, MP = 0;
@@ -61,13 +68,13 @@ void CharacterStat::Init_HPMP()
 
 	while (true)
 	{
-		Print("Enter HP and MP: ");
+		BaseUI::Print("Enter HP and MP: ");
 		cin >> HP >> MP;
 		
 		// 최소치
 		if (HP < minHP || MP < minMP)
 		{
-			Print_ln("HP or MP is too low. Try again.");
+			BaseUI::Print_ln("HP or MP is too low. Try again.");
 		}
 		else
 		{
@@ -80,7 +87,7 @@ void CharacterStat::Init_HPMP()
 		}
 	}
 
-	Print_ln(1);
+	BaseUI::Print_ln(1);
 	return;
 
 }
@@ -92,12 +99,12 @@ void CharacterStat::Init_APDP()
 
 	while (true)
 	{
-		Print("Enter AP and DP: ");
+		BaseUI::Print("Enter AP and DP: ");
 		cin >> AP >> DP;
 		
 		if (AP < minAP || DP < minDP)
 		{
-			Print_ln("AP or DP is too low. Try again.");
+			BaseUI::Print_ln("AP or DP is too low. Try again.");
 		}
 		else
 		{
@@ -108,7 +115,7 @@ void CharacterStat::Init_APDP()
 		}
 	}
 
-	Print_ln(2);
+	BaseUI::Print_ln(2);
 	return;
 
 }
@@ -167,25 +174,25 @@ void CharacterStat::Print_Stat()
 {
 	CharacterStat Stat = GetOwner()->GetStat();
 
-	Print_BorderLine_Double();
+	BaseUI::Print_BorderLine_Double();
 
-	Print_ln(); Print_t();
-	Print_t("Lv. " + to_string(GetLv()));
-	Print_t(Owner->GetName() + "'s Stats");
-	Print("(Exp: " + to_string(GetExp()) + "/" + to_string(GetMaxExp()) + ")");
+	BaseUI::Print_ln(); 
+	
+	BaseUI::Print_t();  BaseUI::Print_t("Lv. " + to_string(GetLv()));   BaseUI::Print_t(Owner->GetName() + "'s Stats");
+	BaseUI::Print("(Exp: " + to_string(GetExp()) + "/" + to_string(GetMaxExp()) + ")");
 
-	Print_ln();
-	Print_BorderLine_Single();
+	BaseUI::Print_ln();
+	BaseUI::Print_BorderLine_Single();
 
-	Print_t("HP: " + to_string(Stat.GetHP()) + " / " + to_string(Stat.GetMaxHP()));
-								   									 
-	Print_t("MP: " + to_string(Stat.GetMP()) + " / " + to_string(Stat.GetMaxMP()));
-	Print_ln();					   
-								   
-	Print_t("AP: " + to_string(Stat.GetAP()));
-								   
-	Print_t("DP: " + to_string(Stat.GetDP()));
-	Print_BorderLine_Double();
+	BaseUI::Print_t("HP: " + to_string(Stat.GetHP()) + " / " + to_string(Stat.GetMaxHP()));
+							   									 
+	BaseUI::Print_t("MP: " + to_string(Stat.GetMP()) + " / " + to_string(Stat.GetMaxMP()));
+	BaseUI::Print_ln();					   
+						   
+	BaseUI::Print_t("AP: " + to_string(Stat.GetAP()));
+					   
+	BaseUI::Print_t("DP: " + to_string(Stat.GetDP()));
+	BaseUI::Print_BorderLine_Double();
 }
 
 void CharacterStat::Buff_Add(int statindex, int value)
@@ -196,28 +203,28 @@ void CharacterStat::Buff_Add(int statindex, int value)
 	case 0:
 		SetHP(GetHP() + value);
 		SetMaxHP(max(GetMaxHP(), GetHP()));
-		Print("* HP has increased " + to_string(value));
-		Print_ln(" point. ");
+		BaseUI::Print("* HP has increased " + to_string(value));
+		BaseUI::Print_ln(" point. ");
 		
 		break;
 
 	case 1:
 		SetMP(GetMP() + value);
 		SetMaxMP(max(GetMaxMP(), GetMP()));
-		Print("* MP has increased " + to_string(value));
-		Print_ln(" point. ");
+		BaseUI::Print("* MP has increased " + to_string(value));
+		BaseUI::Print_ln(" point. ");
 		
 		break;
 
 	case 2:
 		SetAP(GetAP() + value);
-		Print_ln("* AP has increased " + to_string(value));
+		BaseUI::Print_ln("* AP has increased " + to_string(value));
 
 		break;
 
 	case 3:
 		SetDP(GetDP() + value);
-		Print_ln("* DP has increased " + to_string(value));
+		BaseUI::Print_ln("* DP has increased " + to_string(value));
 
 		break;
 	}
@@ -230,29 +237,29 @@ void CharacterStat::Buff_Mul(int statindex, int value)
 	{
 	case 0:
 		SetHP(GetHP() * value);
-		Print("* HP has multiplied " + to_string(value));
-		Print(" point.");
+		BaseUI::Print("* HP has multiplied " + to_string(value));
+		BaseUI::Print(" point.");
 		
 		break;
 
 	case 1:
 		SetMP(GetMP() * value);
-		Print("* MP has multiplied " + to_string(value));
-		Print(" point. ");
+		BaseUI::Print("* MP has multiplied " + to_string(value));
+		BaseUI::Print(" point. ");
 
 		break;
 
 	case 2:
 		SetAP(GetAP() * value);
-		Print_ln("* AP has multiplied " + to_string(value));
-		Print_ln("* Now your AD is " + to_string(GetAP()));
+		BaseUI::Print_ln("* AP has multiplied " + to_string(value));
+		BaseUI::Print_ln("* Now your AD is " + to_string(GetAP()));
 
 		break;
 
 	case 3:
 		SetDP(GetDP() * value);
-		Print_ln("* DP has multiplied " + to_string(value));
-		Print_ln("* Now your AD is " + to_string(GetDP()));
+		BaseUI::Print_ln("* DP has multiplied " + to_string(value));
+		BaseUI::Print_ln("* Now your AD is " + to_string(GetDP()));
 
 		break;
 	}
